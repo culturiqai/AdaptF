@@ -2,7 +2,7 @@
 
 ### **A Breakthrough in Long-Context AI with True Global Context**
 
-Author: Aditya Tiwari
+Author: Aditya Tiwari  
 Status: Version 1.0 (Proof of Concept) \- June 2025  
 Contact: https://www.linkedin.com/in/aditya-tiwari-jsr/
 
@@ -25,26 +25,27 @@ The core innovation is a **direct frequency-domain analogue of the attention mec
 
 ## **3\. Performance Highlights**
 
-AdaptF has been successfully tested on documents far exceeding the limits of conventional AI models.
+AdaptF has been successfully tested on documents and at sequence lengths that far exceed the limits of conventional AI models.
 
 **Landmark Demonstration:**
 
 * **Input:** The full, unabridged text of Herman Melville's "Moby Dick" (\~293,000 tokens).  
-* **Task:** Perform a full-text extractive Q\&A query.  
+* **Task:** Perform a full-text extractive Question & Answering query.  
 * **Hardware:** Apple M4 Pro (consumer laptop chip, using only 3-4 cores).  
 * **Result:** **Successful retrieval from the end of the document in seconds.**
 
 This result validates the architecture's ability to handle massive contexts with unprecedented efficiency on accessible hardware.
 
-**Comparative CPU Benchmarks:** While some simpler, non-adaptive architectures (like FNet, AFNO) show higher raw throughput on short sequences, AdaptF delivers best-in-class performance among architectures that provide high-quality, dynamic, content-aware processing. It remains robust and performant at sequence lengths where other sophisticated models (like Mamba) fail on CPU.
+**Comparative CPU Benchmarks at Scale:** While simpler architectures may show higher raw throughput on short sequences, AdaptF demonstrates exceptional performance and stability at massive sequence lengths. It remains robust where other sophisticated models can fail on CPU hardware.
 
 | Sequence Length | AdaptF (tokens/sec) |
 | :---- | :---- |
-| 4096 | \~34,000 |
-| 8192 | \~29,000 |
-| 16384 | \~27,000 |
+| 4,096 | \~33,000 |
+| 16,384 | \~27,000 |
+| 32,768 | \~26,000 |
+| **65,536** | **\~18,000** |
 
-*(Results from an unoptimized, one-month-old reference implementation)*
+*(Results from an unoptimized, one-month-old reference implementation, showing graceful performance scaling.)*
 
 ## **4\. Architectural Advantage**
 
