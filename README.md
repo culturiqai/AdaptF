@@ -1,4 +1,4 @@
-AdaptF: Adaptive Fourier Attention
+### AdaptF: Adaptive Fourier Attention
 A Breakthrough in Long-Context AI with True Global Context
 Author: Aditya [Last Name Redacted]
 Status: Version 1.0 (Proof of Concept) - June 2025
