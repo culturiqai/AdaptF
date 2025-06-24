@@ -1,6 +1,6 @@
 # **AdaptF: Adaptive Fourier Attention**
 
-### **A Breakthrough in Long-Context AI with True Global Context**
+### **A Long-Context AI with True Global Context**
 
 Author: Aditya Tiwari  
 Status: Version 1.0 (Proof of Concept) \- June 2025  
